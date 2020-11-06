@@ -118,6 +118,7 @@ img.portrait {
 .span-3 { width: 25%; }
 .span-5 { width: 41.6667%; }
 .span-6 { width: 50%; }
+.span-9 { width: 75%; }
 
 .content-wrapper {
   justify-content: center;
@@ -138,6 +139,10 @@ img.portrait {
 
 .content-wide {
   width: 100%;
+}
+
+.content-footer {
+  width: 50%;
 }
 
 .block-content {
@@ -229,4 +234,18 @@ section#banner {
 
 section#info {
   background-color: rgb(33, 71, 107);
+}
+
+footer#footer-sections {
+  margin-top: auto;
+  display: block;
+}
+
+section#footer {
+  background-color: rgb(35, 38, 39);
+}
+
+footer section {
+  align-items: center;
+  min-height: 33vh;
 }

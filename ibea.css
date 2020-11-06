@@ -32,6 +32,10 @@ h2 {
   color: rgb(87, 175, 236);
 }
 
+h3 {
+  font-size: 1.6rem;
+}
+
 ul {
   list-style: none;
 }
@@ -51,8 +55,53 @@ ul li:before {
   padding: .88em 1.4696em;
 }
 
+img.inline {
+  width: 100%;
+}
+
+img.portrait {
+  width: 100%;
+}
+
+.figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.figure-float-right {
+  float: right;
+  margin-left: 17px;
+  padding: 17px;
+}
+
+.figure-float-left {
+  clear: both;
+  float: left;
+  margin-right: 17px;
+  padding: 17px;
+}
+
+.image-block {
+  padding: 17px;
+  overflow: hidden;
+}
+
 .col {
   float: left;
+}
+.row {
+  width: auto !important;
+}
+.row::before {
+  content: "";
+  display: table;
+}
+.row::after {
+  clear: both;
+}
+.spacer-block {
+  clear: both;
+  padding: 17px;
 }
 .spacer {
   height: 34px;
@@ -60,8 +109,11 @@ ul li:before {
   visibility: hidden;
 }
 .span-1 { width: 8.3333%; }
+.span-3 { width: 25%; }
 .span-5 { width: 41.6667%; }
 .span-6 { width: 50%; }
+
+/* .title { padding: 17px; } */
 
 .content-wrapper {
   justify-content: center;
@@ -71,6 +123,17 @@ ul li:before {
   padding-left: 3vw;
   margin: 0 auto;
   box-sizing: content-box;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.content {
+  width: 75%;
+}
+
+.block-content {
+  outline: none;
 }
 
 /* page */

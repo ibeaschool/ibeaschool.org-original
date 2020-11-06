@@ -86,6 +86,12 @@ img.portrait {
   overflow: hidden;
 }
 
+.card-image {
+  width: 80% !important;
+  height: auto !important;
+  position: static !important;
+}
+
 .col {
   float: left;
 }
@@ -113,8 +119,6 @@ img.portrait {
 .span-5 { width: 41.6667%; }
 .span-6 { width: 50%; }
 
-/* .title { padding: 17px; } */
-
 .content-wrapper {
   justify-content: center;
   padding-top: 3.3vmax;
@@ -130,6 +134,10 @@ img.portrait {
 
 .content {
   width: 75%;
+}
+
+.content-wide {
+  width: 100%;
 }
 
 .block-content {
@@ -217,4 +225,8 @@ section#banner {
 
 .intro-list {
   font-size: 1.5rem;
+}
+
+section#info {
+  background-color: rgb(33, 71, 107);
 }
